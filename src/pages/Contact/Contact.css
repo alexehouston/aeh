@@ -1,0 +1,89 @@
+.contact {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fade ease 2s;
+    row-gap: 5vmin;
+}
+
+.contact img {
+    width: 20vmin;
+}
+
+.contact p {
+    font-size: 1.5vmin;
+    width: 45vmin;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10vmin;
+    line-height: .5;
+}
+
+a {
+    color: #39FF14;
+    text-decoration: none;
+    font-size: 1.5vmin;
+}
+
+.follow-me {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vmin;
+}
+
+.follow-me i {
+    font-size: 3.5vmin;
+    color: white;
+}
+
+.follow-me i:hover {
+    color: #39FF14;
+}
+
+.ig {
+    font-size: 2vmin;
+    margin-top: -3vmin;
+}
+
+.ig a {
+    font-size: 1.25vmin;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10vmin;
+    }
+
+    .contact-header {
+        font-size: 6vmin;
+    }
+
+    .email-link {
+        font-size: 3vmin;
+    }
+
+    .follow-me {
+        margin-top: 10vmin;
+    }
+
+    .follow-me i {
+        font-size: 8vmin;
+    }
+
+    .ig a {
+        font-size: 2vmin;
+    }
+
+}

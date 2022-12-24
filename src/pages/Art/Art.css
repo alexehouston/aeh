@@ -1,0 +1,43 @@
+.art {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    animation: fade ease 2s;
+    gap: 5vmin;
+}
+
+.art img {
+    width: 20vmin;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .art {
+        grid-template-columns: auto auto;
+        gap: 10vmin;
+        margin-top: 5vmin;
+    }
+
+    .art img {
+        width: 28vmin;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .art {
+        height: 65vh;
+        overflow-y: auto;
+    }
+
+    .art img {
+        width: 30vmin;
+    }
+}
