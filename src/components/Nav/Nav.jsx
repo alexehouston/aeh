@@ -6,10 +6,6 @@ export default function Nav({ currentPage, setCurrentPage }) {
         setCurrentPage('home');
     }
 
-    function renderHair() {
-        setCurrentPage('hair');
-    }
-
     function renderArt() {
         setCurrentPage('art');
     }
@@ -24,7 +20,7 @@ export default function Nav({ currentPage, setCurrentPage }) {
                 <li onClick={renderHome}>home</li>
                 <li className="dropdown">work
                     <ul className="dropdown-content">
-                        <li onClick={renderHair}>Hair Bookings</li>
+                    <li><a href="https://kpxaeh.com" target="_blank" rel="noreferrer">Hair Bookings</a></li>
                         <li onClick={renderArt}>Artwork</li>
                         <li><a href="https://alexehouston.github.io/portfolio/" target="_blank" rel="noreferrer">Dev Portfolio</a></li>
                     </ul>
