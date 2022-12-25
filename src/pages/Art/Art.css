@@ -21,7 +21,7 @@
     .art {
         grid-template-columns: auto auto;
         gap: 10vmin;
-        margin-top: 5vmin;
+        margin-top: 10vmin;
     }
 
     .art img {
@@ -35,6 +35,7 @@
     .art {
         height: 65vh;
         overflow-y: auto;
+        margin-top: 20vmin;
     }
 
     .art img {

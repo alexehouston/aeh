@@ -62,7 +62,6 @@ li:hover {
 
     ul, li {
         column-gap: 15vw;
-        margin-left: 1vmin;
     }
 
     .dropdown-content li, .dropdown-content a {
@@ -73,11 +72,4 @@ li:hover {
         margin: 20vmin 0 0 10vmin;
     }
 
-}
-
-@media only screen and (max-width: 375px) {
-
-    ul, li {
-        margin-left: .5vmin;
-    }
 }
