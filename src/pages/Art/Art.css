@@ -1,44 +1,18 @@
-.art {
+.carousel {
+    overflow-y: hidden;
+    overflow-x: auto;
     position: fixed;
-    top: 55%;
+    top: 50%;
     left: 50%;
+    width: 100vw;
+    height: 30vh;
     transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    align-items: center;
-    animation: fade ease 2s;
-    gap: 5vmin;
 }
 
-.art img {
-    width: 20vmin;
-    border-radius: 10px;
+.carousel img {
+    width: 30vh;
 }
 
-@media only screen and (max-width: 500px) {
-    
-    .art {
-        grid-template-columns: auto auto;
-        gap: 10vmin;
-        margin-top: 10vmin;
-    }
-
-    .art img {
-        width: 28vmin;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-
-    .art {
-        height: 65vh;
-        overflow-y: auto;
-        margin-top: 20vmin;
-    }
-
-    .art img {
-        width: 30vmin;
-    }
+.flickity-button {
+    opacity: 0;
 }
