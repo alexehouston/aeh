@@ -7,6 +7,7 @@
     width: 100vw;
     height: 30vh;
     transform: translate(-50%, -50%);
+    animation: fade ease 2s;
 }
 
 .carousel img {
