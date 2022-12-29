@@ -23,7 +23,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: fade ease 2s;
+    animation: fadeIn 1s;
 }
 
 .glitch-container {

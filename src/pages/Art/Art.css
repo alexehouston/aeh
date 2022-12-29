@@ -1,11 +1,16 @@
+.Art {
+    width: 100vw;
+    height: 100vh;
+    animation: fadeInUp 1s;
+}
+
 .swiper {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vmin;
     height: 30vmin;
-    margin-top: 2vmin;
     opacity: 90%;
     border-radius: 10px;
 }

@@ -7,6 +7,7 @@
     justify-content: center;
     animation: fade ease 2s;
     row-gap: 5vmin;
+    animation: fadeInUp 1s;
 }
 
 .contact img {

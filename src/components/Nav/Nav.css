@@ -1,5 +1,6 @@
 .nav {
-    width: 100vw
+    width: 100vw;
+    animation: fadeInDown 1s;
 }
 
 ul, li {
@@ -12,7 +13,6 @@ ul, li {
     list-style: none;
     text-decoration: none;
     font-size: 1.5vmin;
-    animation: fade ease .5s;
 }
 
 ul {
