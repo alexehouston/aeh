@@ -45,7 +45,7 @@ li:hover {
     flex-direction: column;
     row-gap: 2vmin;
     font-size: 3vmin;
-    margin: 15vmin 0;
+    margin: 15vmin 0 ;
 }
 
 .dropdown-content li, .dropdown-content a {
@@ -58,14 +58,36 @@ li:hover {
 
 /* mobile-ui */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1500px) {
 
-    .nav ul, .nav li {
-        font-size: 4vmin;
+    .size-40 {
+        font-size: 6vmin;
+        margin-top: 5vmin;
+    }
+    
+    ul, li {
+        column-gap: 12vmin;
     }
 
+    .dropdown-content li, .dropdown-content a {
+        font-size: 2.5vmin;
+    }
+
+    .dropdown-content {
+        margin: 22vmin 0;
+        row-gap: 3vmin;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .size-40 {
+        font-size: 8vmin;
+    }
+    
     ul, li {
-        column-gap: 15vw;
+        column-gap: 15vmin;
     }
 
     .dropdown-content li, .dropdown-content a {
@@ -73,7 +95,7 @@ li:hover {
     }
 
     .dropdown-content {
-        margin: 20vmin 0 0 10vmin;
+        row-gap: 3vmin;
     }
 
 }

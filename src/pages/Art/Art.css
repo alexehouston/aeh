@@ -24,3 +24,12 @@
     color: #39FF14;
     opacity: 40%;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .swiper {
+        width: 100vw;
+        height: 35vmin;
+        border-radius: 0;
+    }
+}
