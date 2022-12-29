@@ -1,4 +1,6 @@
-import Flickity from 'react-flickity-component'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper';
+import 'swiper/css/bundle';
 import './Art.css';
 
 const flickityOptions = {
@@ -10,22 +12,23 @@ const flickityOptions = {
 export default function Art() {
 
     return (
-        <Flickity
-            className={'carousel'}
-            elementType={'div'}
-            options={flickityOptions}
-            disableImagesLoaded={false}
-            reloadOnUpdate
-            static
+        <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation={true}
+            slidesPerView={3}
+            autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+            }}
         >
-                <img src="/assets/art/hatterene.jpeg" alt="" />
-                <img src="/assets/art/danny-beard.jpeg" alt="" />
-                <img src="/assets/art/rita-repulsa.jpeg" alt="" />
-                <img src="/assets/art/white-ranger.jpeg" alt="" />
-                <img src="/assets/art/power-rangers.jpeg" alt="" />
-                <img src="/assets/art/maleficent.jpeg" alt="" />
-                <img src="/assets/art/rosalina.jpeg" alt="" />
-                <img src="/assets/art/sminty-drop.jpeg" alt="" />
-        </Flickity>
+            <SwiperSlide><img src="/assets/art/hatterene.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/danny-beard.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/rita-repulsa.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/white-ranger.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/power-rangers.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/maleficent.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/rosalina.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="/assets/art/sminty-drop.jpeg" alt="" /></SwiperSlide>
+        </Swiper>
     );
 }

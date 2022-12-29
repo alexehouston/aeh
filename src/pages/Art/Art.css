@@ -1,19 +1,21 @@
-.carousel {
-    overflow-y: hidden;
-    overflow-x: auto;
+.swiper {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 100vw;
-    height: 30vh;
     transform: translate(-50%, -50%);
-    animation: fade ease 2s;
+    width: 90vmin;
+    height: 30vmin;
+    margin-top: 2vmin;
+    opacity: 90%;
+    border-radius: 10px;
 }
 
-.carousel img {
-    width: 30vh;
+.swiper img {
+    width: 100%;
+    height: 100%;
 }
 
-.flickity-button {
-    opacity: 0;
+.swiper-button-prev, .swiper-button-next {
+    color: #39FF14;
+    opacity: 40%;
 }
