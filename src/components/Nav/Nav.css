@@ -61,7 +61,7 @@ li:hover {
 @media only screen and (max-width: 1500px) {
 
     .size-40 {
-        font-size: 6vmin;
+        font-size: 5vmin;
         margin-top: 5vmin;
     }
     
@@ -70,11 +70,11 @@ li:hover {
     }
 
     .dropdown-content li, .dropdown-content a {
-        font-size: 2.5vmin;
+        font-size: 2vmin;
     }
 
     .dropdown-content {
-        margin: 20vmin 0;
+        margin: 19vmin 0;
         row-gap: 3vmin;
     }
 
