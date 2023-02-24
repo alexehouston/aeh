@@ -14,9 +14,9 @@ export default function Title() {
                 <h1 class="glitch"><span class="houston">Houston</span></h1>
             </div>
             <div class="glitch-container">
-                <h1 class="glitch"><span class="developer">SOFTWARE&nbsp;DEVELOPER</span></h1>
-                <h1 class="glitch"><span class="developer">SOFTWARE&nbsp;DEVELOPER</span></h1>
-                <h1 class="glitch"><span class="developer">SOFTWARE&nbsp;DEVELOPER</span></h1>
+                <h1 class="glitch"><span class="developer">STYLIST / ARTIST / DEVELOPER</span></h1>
+                <h1 class="glitch"><span class="developer">STYLIST / ARTIST / DEVELOPER</span></h1>
+                <h1 class="glitch"><span class="developer">STYLIST / ARTIST / DEVELOPER</span></h1>
             </div>
         </div>
     );
